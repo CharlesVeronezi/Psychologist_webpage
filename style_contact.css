@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e6e7e6;
+}
+
+/* cabeçalho */
+
+.navigation li{
+    list-style: none;
+    display: inline;
+    margin: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+    width: 100vw;
+    height: 95px
+}
+
+
+.logotipo {
+    padding: 1rem;
+    margin-left: 15px;
+}
+
+.nav_bar {
+    text-align: right;
+    padding-left: 50%;
+    padding-right: 2%;
+    width: 100%;
+    height: 40%;
+}
+
+.nav_top {
+    text-decoration: none;
+    color: 	#1c7f13;
+}
+
+.nav_top:hover {
+    color: #66c254;
+}
+
+#agenda{
+    background-color: #1c7f13;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#agenda:hover{
+    background-color: #005100;
+}
+
+header{
+    z-index: 100;
+    position: fixed;
+    margin-bottom: 1px;
+}
+
+/* geral_box */
+
+.geral_box {
+    width: 1400px;
+    height: 700px;
+    background-color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.box_left{
+    background-image: url(imagens/backgroundContact.png);
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+    border-radius: 30px;
+    float: left;    
+}
+
+.box_right{
+    
+    width: 60%;
+    height: 100%;
+    border-radius: 30px;
+    float: right;
+}
+
+.header_box{
+    width: 100%;
+    height: auto;
+    padding: 4% 4%;
+}
+
+#title{
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Mukta', sans-serif;
+}
+
+#text{
+    font-weight: 600;
+    color: white;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 20px;
+}
+
+.phone_box, .mail_box, .insta_box{
+    height: 35px;
+    width: 500px;
+    margin-left: 21px;
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+
+._icon{
+    height: 35px;
+    width: 35px;
+    display: inline;
+}
+
+.list{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    display: inline;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+#icon_insta{
+    height: 40px;
+    width: 40px;
+    display: inline;
+}
+
+.list:hover{
+    color: #96c588;
+}
+
+
+/* form */
+
+.sub_elemento{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    margin: 4%;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #96c588;
+    margin-bottom: 18px;
+    font-family: 'Mukta', sans-serif;
+    color: rgb(92, 91, 91);
+    font-size: 20px;
+}
+
+textarea{
+    border: none;
+    border-bottom: 2px solid #96c588;
+    margin-top: 10px;
+    resize: none;
+    font-family: 'Mukta', sans-serif;
+    color: rgb(92, 91, 91);
+    font-size: 20px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.sub_geral{
+    font-family: 'Mukta', sans-serif;
+    color: #1c7f13;
+    font-size: 20px
+}
+
+label{
+    display: block;
+}
+
+#name_box, #email_box, #lastname_box, #number_box{
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+#enviar{
+    margin-top: 50px;
+    margin-left: 580px;
+    padding: 10px;
+    color: white;
+    background-color: #1c7f13;
+    border: none;
+    border-radius: 30px;
+    font: 22px 'Mukta', sans-serif;
+    height: 60px;
+    width: 150px;
+}
+
+#enviar:hover{
+    background-color: #005100;
+}
+
+
+

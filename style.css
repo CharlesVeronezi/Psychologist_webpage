@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.navigation li{
+    list-style: none;
+    display: inline;
+    margin: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+    width: 100vw;
+    height: 95px
+}
+
+
+.logotipo {
+    padding: 1rem;
+    margin-left: 15px;
+}
+
+.nav_bar {
+    text-align: right;
+    padding-left: 50%;
+    padding-right: 2%;
+    width: 100%;
+    height: 40%;
+}
+
+.nav_top {
+    text-decoration: none;
+    color: 	#1c7f13;
+}
+
+.nav_top:hover {
+    color: #66c254;
+}
+
+.visual {
+    height: 800px;
+    width: 100%;
+    top: 91px;
+}
+.carrossel{
+    height: 100%;
+    width: 100%;
+    background-image: url(imagens/mulher-tendo-um-encontro-virtual.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+}
+
+.texto_principal{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 25px;
+    font-family: 'Mukta', sans-serif;
+    color: #1c7f13;
+    text-shadow: 1px 1px 1px #096805;
+}
+
+
+.texto{
+    color: rgb(63, 62, 62);
+    font-family: 'Mukta', sans-serif;
+    text-shadow: none;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bottom{
+    height: 50px;
+    width: 240px;
+    background-color: #1c7f13;
+    border-radius: 30px;
+    
+}
+
+.bottom:hover{
+    background-color: #005100;
+}
+
+.texto_bottom{
+    font-size: 20px;
+    text-shadow: none;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    left: 25px;
+    padding-top: 7px;
+    text-decoration: none;
+}
+
+#agenda{
+    background-color: #1c7f13;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#agenda:hover{
+    background-color: #005100;
+}
+
+/*benefits*/
+
+.container_benefits{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-color: #e9e9e9;
+    padding-top: 40px;   
+}
+
+.title_subtitle_benefits{
+    height: 100px;
+    font-family: 'Mukta', sans-serif;
+}
+
+#title{
+    color: #0a5506;
+    font-size: 30px;
+}
+
+#subtitle{
+    color: #4a9f3d;
+}
+
+#text_benefits{
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: rgb(63, 62, 62);
+}
+
+.big_cont{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.big_cont_item{
+    flex: 1;
+    padding: 10px;
+    flex: 0 0 300px;
+    display: flex;
+    margin: 8px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images_4box{
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+#img-one{
+    background-image: url(imagens/therapy_3475596.png);
+}
+
+#img-two{
+    background-image: url(imagens/Sem\ título-1.png);
+}
+
+#img-three{
+    background-image: url(imagens/relationship_7186802.png);
+}
+
+#img-four{
+    background-image: url(imagens/personal-growth_8712143.png);
+}
+
+.text_4box{
+    margin-top: 20px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 14px;
+}
+
+.text_4box_title{
+    color: #1c7f13;
+}
+
+.text_4box_paragraph{
+    color: rgb(63, 62, 62);
+}
+
+
+/*especilidade*/
+.container {
+    text-align: center;
+    background-color: #d8d1fc;
+}
+
+#title_espec{
+    font-family: 'Mukta', sans-serif;
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.accordion-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #EFEBFC;
+ }
+  
+.accordion-column {
+    flex: 1;
+    flex: 0 0 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+.accordion-item{
+    border-radius: 20px;
+    margin: 10px;
+    width: 400px;
+    border: 6px solid #ffffff;
+    margin-bottom: px;
+}
+  
+.accordion-title {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px; 
+    color: rgb(63, 62, 62);
+}
+  
+.accordion-content {
+    display: none;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color: rgb(63, 62, 62);
+    border-radius: 0 0 12px 12px;
+}
+
+.accordion-title:hover{
+    background-color: #D1A1E3;
+    color: white;
+    
+}
+
+.accordion-item:hover{
+    border: 6px solid #D1A1E3;
+}

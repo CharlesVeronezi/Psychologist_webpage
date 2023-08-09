@@ -285,10 +285,21 @@ header{
 }
 
 .left_box{
-    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     height: 100%;
     width: 50%;
     float: left;
+}
+
+#picture_about{
+    height: 450px;
+    width: 350px;
+    background-image: url(imagens/prof.jpeg);
+    background-size: cover;
+    border: 10px solid white;
+    margin-right: 10%;
 }
 
 .right_box{
@@ -296,5 +307,50 @@ header{
     width: 50%;
     float: right;
     text-align: left;
-    padding-top: 10%;
+    padding-top: 3%;
+    font-family: 'Mukta', sans-serif;
+    color: rgb(63, 62, 62);
+}
+
+#title_about{
+    color: #1c7f13;
+    font-size: 40px;
+}
+
+#subtitle_about{
+    color: #005100;
+    font-size: 20px;
+}
+
+.container_text_about{
+    width: 650px;
+    text-align: justify;
+    margin-bottom: 1%;
+}
+
+li::marker {
+    content: '•';
+    font-size: 25px;
+    color: #005100;
+}
+
+.space_list{
+    padding-left: 10px;
+}
+
+#button_about{
+    padding: 15px;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #1c7f13;
+    margin-top: 3%;
+}
+
+#button_about:hover{
+    background-color: #005100;
+    cursor: pointer;
 }

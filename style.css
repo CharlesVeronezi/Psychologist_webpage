@@ -48,10 +48,9 @@
 .visual {
     height: 800px;
     width: 100%;
-    top: 91px;
 }
 .carrossel{
-    height: 100%;
+    height: 800px;
     width: 100%;
     background-image: url(imagens/mulher-tendo-um-encontro-virtual.jpg);
     background-size: cover;
@@ -224,8 +223,9 @@ header{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 450px;
+    height: auto;
     background-color: #EFEBFC;
+    padding: 20px;
  }
   
 .accordion-column {
@@ -340,7 +340,6 @@ li::marker {
 
 #button_about{
     padding: 15px;
-    color: white;
     font-family: 'Mukta', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -353,4 +352,9 @@ li::marker {
 #button_about:hover{
     background-color: #005100;
     cursor: pointer;
+}
+
+#link_button_about{
+    text-decoration: none;
+    color: white;
 }

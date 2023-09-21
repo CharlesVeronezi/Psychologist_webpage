@@ -1,212 +1,234 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #e6e7e6;
+body {
+  background-color: #e6e7e6;
 }
 
 /* cabeçalho */
-
-.navigation li{
-    list-style: none;
-    display: inline;
-    margin: 1rem;
-    width: 100%;
+header {
+  font-family: "Mukta", sans-serif;
+  background-color: #fff;
+  box-shadow: 0px 3px 10px #ebebeb;
+  width: 100%;
 }
 
-.row {
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    font-family: 'Mukta', sans-serif;
-    width: 100vw;
-    height: 10%;
-    justify-content: right;
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  width: 100%;
 }
-
 
 .logotipo {
-    padding: 1rem;
-    margin-right: 70rem;
-    margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
 }
 
-.nav_top {
-    text-decoration: none;
-    color: 	#1c7f13;
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
 }
 
-.nav_top:hover {
-    color: #66c254;
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
-#agenda{
-    background-color: #1c7f13;
-    color: white;
-    border-radius: 30px;
-    padding: 10px;
+.nav-item {
+  margin: 0rem 1rem;
 }
 
-#agenda:hover{
-    background-color: #005100;
+.nav-link {
+  text-decoration: none;
+  color: #1c7f13;
+  font-size: 1rem;
 }
 
-header{
-    z-index: 100;
-    position: fixed;
-    
+.nav-link:hover {
+  color: #005100;
+}
+
+#button-button {
+  border: none;
+}
+
+.button {
+  border: none;
+  background-color: #1c7f13;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #005100;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
 }
 
 /*geral_box*/
 
-.geral_box{
-    width: 1900px;
-    height: 800px;
-    background-color: #e6e7e6;
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.geral_box {
+  width: 1900px;
+  height: 800px;
+  background-color: #e6e7e6;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.box_left{
-    width: 45%;
-    height: 100%;
-    float: left; 
+.box_left {
+  width: 45%;
+  height: 100%;
+  float: left;
 }
 
-.box_left_inleft{
-    width: 50%;
-    height: 100%;
-    float: left;  
+.box_left_inleft {
+  width: 50%;
+  height: 100%;
+  float: left;
 }
 
-.box_left_inright{
-    width: 45%;
-    height: 750px;
-    float: right;  
-    background-color: #cacaca;
-    border-bottom: 18px;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: #1c7f13;
-    border-style: solid;
+.box_left_inright {
+  width: 45%;
+  height: 750px;
+  float: right;
+  background-color: #cacaca;
+  border-bottom: 18px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: #1c7f13;
+  border-style: solid;
 }
 
-.prof_pic{
-    width: 300px;
-    height: 450px;
-    position: absolute;
-    left: 18%;
-    top: 10%;
-    background-image: url(imagens/prof.jpeg);
-    background-size: cover;
-    border: 10px solid white;
-    background-position: -12px
+.prof_pic {
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  left: 18%;
+  top: 10%;
+  background-image: url(imagens/prof.jpeg);
+  background-size: cover;
+  border: 10px solid white;
+  background-position: -12px;
 }
 
-.box_right{
-    width: 55%;
-    height: 100%;
-    float: right;
+.box_right {
+  width: 55%;
+  height: 100%;
+  float: right;
 }
 
-h1{
-    position: absolute;
-    color: #1c7f13;
-    left: 40%;
-    top: 15%;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 80px;
+h1 {
+  position: absolute;
+  color: #1c7f13;
+  left: 40%;
+  top: 15%;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 80px;
 }
 
-.box_phone{
-    position: absolute;
-    background-color: #cacaca;
-    height: 50px;
-    width: 50px;
-    left: 20%;
-    top: 70%;
+.box_phone {
+  position: absolute;
+  background-color: #cacaca;
+  height: 50px;
+  width: 50px;
+  left: 20%;
+  top: 70%;
 }
 
-.box_phone:hover, .box_mail:hover, .box_link:hover{
-    background-color: #a8a8a8;
+.box_phone:hover,
+.box_mail:hover,
+.box_link:hover {
+  background-color: #a8a8a8;
 }
 
-.box_mail{
-    position: absolute;
-    background-color: #cacaca;
-    height: 50px;
-    width: 50px;
-    left: 20%;
-    top: 77%;
+.box_mail {
+  position: absolute;
+  background-color: #cacaca;
+  height: 50px;
+  width: 50px;
+  left: 20%;
+  top: 77%;
 }
 
-.box_link{
-    position: absolute;
-    background-color: #cacaca;
-    height: 50px;
-    width: 50px;
-    left: 20%;
-    top: 84%;
+.box_link {
+  position: absolute;
+  background-color: #cacaca;
+  height: 50px;
+  width: 50px;
+  left: 20%;
+  top: 84%;
 }
 
-#phone_icon{
-    position: absolute;
-    left: 14%;
-    top: 13%;
+#phone_icon {
+  position: absolute;
+  left: 14%;
+  top: 13%;
 }
 
-#mail_icon{
-    position: absolute;
-    left: 12%;
-    top: 12%;
+#mail_icon {
+  position: absolute;
+  left: 12%;
+  top: 12%;
 }
 
-#link_icon{
-    position: absolute;
-    left: 15%;
-    top: 15%;
+#link_icon {
+  position: absolute;
+  left: 15%;
+  top: 15%;
 }
 
-.box_inside{
-    width: 700px;
-    height: 450px;
-    position: absolute;
-    top: 35%;
+.box_inside {
+  width: 700px;
+  height: 450px;
+  position: absolute;
+  top: 35%;
 }
 
-.text_geral{
-    font-family: 'Mukta', sans-serif;
-    font-size: 16px;
-    text-align: justify;
-    padding-bottom: 8px;
-    margin-left: 20px;
+.text_geral {
+  font-family: "Mukta", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  padding-bottom: 8px;
+  margin-left: 20px;
 }
 
-.box_bottom{
-    font-size: 16px;
-    height: 30px;
-    width: 180px;
-    position: relative;
-    left: 30%;
-    top: 90%;
-    
+.box_bottom {
+  font-size: 16px;
+  height: 30px;
+  width: 180px;
+  position: relative;
+  left: 30%;
+  top: 90%;
 }
 
-#text_bottom{
-    font-family: 'Mukta', sans-serif;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    padding: 13px;
-    background-color: #1c7f13;
-    border-radius: 30px;
+#text_bottom {
+  font-family: "Mukta", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 13px;
+  background-color: #1c7f13;
+  border-radius: 30px;
 }
 
-#text_bottom:hover{
-    color: #005100;
+#text_bottom:hover {
+  color: #005100;
 }

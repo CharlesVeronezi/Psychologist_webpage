@@ -1,0 +1,57 @@
+.navigation li{
+    list-style: none;
+    display: inline;
+    margin: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+    width: 100vw;
+    height: 95px
+}
+
+
+.logotipo {
+    padding: 1rem;
+    margin-left: 15px;
+}
+
+.nav_bar {
+    text-align: right;
+    padding-left: 50%;
+    padding-right: 2%;
+    width: 100%;
+    height: 40%;
+}
+
+
+.nav_top {
+    text-decoration: none;
+    color: 	#1c7f13;
+}
+
+.nav_top:hover {
+    color: #66c254;
+}
+
+#agenda{
+    background-color: #1c7f13;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#agenda:hover{
+    background-color: #005100;
+}
+
+header{
+    z-index: 100;
+    position: fixed;
+    margin-bottom: 1px;
+}
